@@ -1,0 +1,419 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+button {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 400;
+    background-color: #ffffff;
+    color: #818080;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 90px;
+    padding-right: 90px;
+    width: 1440px;
+}
+
+.none {
+    display: none;
+}
+
+/* Header */
+.header {
+    margin-bottom: 259px;
+    padding-top: 35px;
+}
+
+/* Header-top */
+.header-top {
+    margin-bottom: 129px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    column-gap: 112px;
+}
+.nav__item {
+    font-style: 28px;
+    line-height: 41px;
+    color: #000000;
+}
+
+.nav__item_mod {
+    display: flex;
+    align-items: flex-start;
+    column-gap: 12px;
+    color: #e84949;
+}
+
+/* Header-content */
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content__description {
+    margin-right: 56px;
+    max-width: 630px;
+}
+
+.header-content__description-title {
+    margin-bottom: 37px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 73px;
+
+    color: #000000;
+}
+
+.header-content__description-text {
+    margin-bottom: 37px;
+    font-size: 35px;
+    line-height: 55px;
+    color: #838383;
+}
+
+.header-content__description-btn {
+    padding: 10px 24px;
+    max-width: 176px;
+    height: 71px;
+
+    font-size: 35px;
+    line-height: 51px;
+    color: #ffffff;
+
+    background-color: #e84949;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 3px 1px rgba(0, 0, 0, 0.12),
+        0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.header-content__img {
+    position: relative;
+    width: 600px;
+    height: 576px;
+}
+
+.header-content__img-bg {
+    position: absolute;
+}
+
+.img-photo {
+    right: 4px;
+    bottom: 0;
+}
+
+.img-bg1 {
+    top: -30px;
+    left: 0;
+}
+
+.img-bg2 {
+    top: -79px;
+    left: 236px;
+}
+
+.img-bg3 {
+    top: -79px;
+    right: 0;
+}
+
+.img-bg4 {
+    bottom: -53px;
+    left: 28px;
+}
+
+.img-bg5 {
+    right: 0;
+    bottom: -93px;
+}
+
+/* Main */
+/* Skills */
+.skills {
+    padding-bottom: 69px;
+}
+
+.section-title {
+    font-size: 40px;
+    line-height: 58px;
+    text-align: center;
+    color: #f37a7a;
+}
+
+.skills-title--mb {
+    margin-bottom: 32px;
+}
+
+.skills-wrapper {
+    position: relative;
+    display: flex;
+    column-gap: 56px;
+    justify-content: space-between;
+}
+
+.skills__technologies {
+    padding-top: 33px;
+    max-width: 688px;
+}
+
+.skills__technologies-text {
+    font-size: 35px;
+    line-height: 51px;
+    margin-bottom: 17px;
+}
+
+.skills__technologies-wrapper {
+    padding-left: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 65px;
+    row-gap: 58px;
+    justify-content: space-between;
+    align-items: center;
+    width: 555px;
+}
+
+.skills__technologies-img {
+}
+.skills__img {
+}
+
+/* Projects */
+.projects {
+    padding-bottom: 105px;
+}
+
+.projects__title--mb {
+    margin-bottom: 43px;
+}
+
+.projects__text {
+    margin-bottom: 53px;
+    text-align: center;
+    font-size: 35px;
+    line-height: 51px;
+}
+
+.projects__items-wrapper {
+    display: flex;
+    column-gap: 42px;
+    justify-content: space-between;
+}
+
+.projects__items {
+    padding: 6px;
+    max-width: 392px;
+    min-height: 501px;
+
+    background: linear-gradient(302.35deg, #0d54be 4.37%, #20ecd3 95.31%);
+}
+
+.projects__items-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 489px;
+    background-color: #ffffff;
+}
+
+.projects__items-card-text {
+    padding: 0 5px;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+}
+
+.projects__items-card-link {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    display: flex;
+    column-gap: 12px;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #0571ad;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Contact-me */
+.contact-me {
+    padding-bottom: 85px;
+}
+
+.contact-me-title--mb {
+    margin-bottom: 72px;
+}
+
+.contact-me__wrapper {
+    display: flex;
+    column-gap: 105px;
+    justify-content: space-between;
+}
+
+.contact-me__img {
+    padding-top: 23px;
+    padding-bottom: 23px;
+    width: 636px;
+    height: 471px;
+}
+.contact-me__send-form {
+    width: 515px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 43px;
+}
+
+.input {
+    text-decoration: 2px underline;
+    text-decoration-color: #838383;
+}
+
+.send-form__input {
+}
+
+.input {
+    padding-top: 45px;
+    min-height: 100px;
+}
+
+.textarea {
+    min-height: 263px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 400;
+    resize: none;
+}
+
+.input-field {
+    padding-left: 19px;
+    height: 100%;
+    font-size: 30px;
+    line-height: 44px;
+
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.35);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.send-form__btn {
+    position: relative;
+    margin: 0 auto;
+    padding: 14px 74px 6px 30px;
+
+    font-size: 36px;
+    line-height: 53px;
+    color: #fffdfd;
+
+    background-color: #6860e2;
+    border: none;
+    border-radius: 4px;
+}
+
+.send-form__btn::after {
+    content: '';
+    width: 45px;
+    height: 52px;
+    position: absolute;
+    right: 18px;
+    top: 20px;
+    background-image: url(../img/main/contact-me/contact-form-button-plane.png);
+}
+
+.footer {
+    padding-top: 13px;
+    color: #ffffff;
+}
+
+.footer__container {
+    padding-top: 136px;
+    padding-bottom: 145px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #4f47c8;
+    background-image: url(../img/footer/bg-wave.jpg);
+    background-repeat: no-repeat;
+}
+
+.social-media {
+    max-width: 455px;
+}
+.social-media__text {
+    margin-bottom: 34px;
+    font-size: 35px;
+    line-height: 51px;
+}
+.social-media__items {
+    display: flex;
+    column-gap: 65px;
+    justify-content: space-between;
+}
+.more-projects {
+    max-width: 490px;
+}
+.more-projects-text {
+    padding-bottom: 34px;
+    font-size: 35px;
+    line-height: 51px;
+}
+.my-github {
+    font-size: 28px;
+    line-height: 45px;
+}
+
+.my-github__image {
+    margin-right: 22px;
+}
+
+.my-github__link {
+    display: flex;
+    align-items: flex-end;
+    color: #ffffff;
+}
+.my-github__link--color {
+    color: #0acbbf;
+}

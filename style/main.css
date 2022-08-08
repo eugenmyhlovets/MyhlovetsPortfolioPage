@@ -79,11 +79,27 @@ a {
     color: #000000;
 }
 
-.nav__item_mod {
-    display: flex;
-    align-items: flex-start;
-    column-gap: 12px;
+.nav__item:hover {
     color: #e84949;
+}
+
+.nav__item--mod {
+    position: relative;
+    width: 117px;
+}
+
+.nav__item--mod::after {
+    content: '';
+    width: 44px;
+    height: 41px;
+    position: absolute;
+    right: 0;
+    top: -7px;
+    background-image: url(./../img/header/header-nav/nav-cogwheel-black.svg);
+}
+
+.nav__item--mod:hover::after {
+    background-image: url(./../img/header/header-nav/nav-cogwheel-red.svg);
 }
 
 /* Header-content */

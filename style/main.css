@@ -83,12 +83,12 @@ a {
     color: #e84949;
 }
 
-.nav__item--mod {
+.nav__item--cogwheel {
     position: relative;
     width: 117px;
 }
 
-.nav__item--mod::after {
+.nav__item--cogwheel::after {
     content: '';
     width: 44px;
     height: 41px;
@@ -98,7 +98,15 @@ a {
     background-image: url(./../img/header/header-nav/nav-cogwheel-black.svg);
 }
 
-.nav__item--mod:hover::after {
+.nav__item--cogwheel:hover::after {
+    background-image: url(./../img/header/header-nav/nav-cogwheel-red.svg);
+}
+
+.nav__item--active {
+    color: #e84949;
+}
+
+.nav__item--active::after {
     background-image: url(./../img/header/header-nav/nav-cogwheel-red.svg);
 }
 
@@ -200,7 +208,7 @@ a {
     color: #f37a7a;
 }
 
-.skills-title--mb {
+.skills-title {
     margin-bottom: 32px;
 }
 
@@ -233,17 +241,12 @@ a {
     width: 555px;
 }
 
-.skills__technologies-img {
-}
-.skills__img {
-}
-
 /* Projects */
 .projects {
     padding-bottom: 105px;
 }
 
-.projects__title--mb {
+.projects__title {
     margin-bottom: 43px;
 }
 
@@ -301,7 +304,7 @@ a {
     padding-bottom: 85px;
 }
 
-.contact-me-title--mb {
+.contact-me-title {
     margin-bottom: 72px;
 }
 
@@ -327,9 +330,6 @@ a {
 .input {
     text-decoration: 2px underline;
     text-decoration-color: #838383;
-}
-
-.send-form__input {
 }
 
 .input {

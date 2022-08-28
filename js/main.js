@@ -15,3 +15,11 @@ function toggleActiveClass() {
 }
 
 toggleActiveClass();
+
+// burger-menu
+const navBtn = document.querySelector('.burger-btn');
+const burgerMenu = document.querySelector('.burger-menu');
+
+navBtn.onclick = function () {
+    burgerMenu.classList.toggle('burger-menu-active');
+};

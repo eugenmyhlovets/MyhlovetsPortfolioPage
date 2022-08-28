@@ -1,280 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./style/main.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&display=swap"
-            rel="stylesheet"
-        />
-        <title>Developer portfolio</title>
-    </head>
-    <body>
-        <!-- Header -->
-        <header class="header">
-            <div class="container">
-                <!-- Header-top -->
-                <div class="header-top">
-                    <nav class="nav">
-                        <a class="nav__item" href="#skills">Skills</a>
-                        <a class="nav__item nav__item--cogwheel" href="#projects">
-                            Projects
-                        </a>
-                        <a class="nav__item" href="#contact-me">Contact me</a>
-                    </nav>
-                </div>
-                <!-- // Header-top -->
 
-                <!-- Header-content -->
-                <div class="header-content">
-                    <div class="header-content__description">
-                        <h1 class="header-content__description-title">
-                            Eugen Myhlovets
-                        </h1>
-                        <p class="header-content__description-text">
-                            Hello! Am a software developer and here is my
-                            portfolio website. Here you’ll learn about my
-                            journey as a software developer.
-                        </p>
-                        <button class="header-content__description-btn">
-                            Hire me
-                        </button>
-                    </div>
-                    <div class="header-content__img">
-                        <img
-                            class="header-content__img-bg img-photo"
-                            src="./img/header/header-content/my-photo.jpg"
-                            alt="My Photo"
-                        />
-                        <img
-                            class="header-content__img-bg img-bg1"
-                            src="./img/header/header-content/zigzags.png"
-                            alt="Zigzag image"
-                        />
-                        <img
-                            class="header-content__img-bg img-bg2"
-                            src="./img/header/header-content/plus.png"
-                            alt="Plus image"
-                        />
-                        <img
-                            class="header-content__img-bg img-bg3"
-                            src="./img/header/header-content/cube.png"
-                            alt="Cube image"
-                        />
-                        <img
-                            class="header-content__img-bg img-bg4"
-                            src="./img/header/header-content/circle.png"
-                            alt="Circle image"
-                        />
-                        <img
-                            class="header-content__img-bg img-bg5"
-                            src="./img/header/header-content/dots.png"
-                            alt="Dots image"
-                        />
-                    </div>
-                </div>
-                <!-- Header-content -->
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <title>Developer portfolio</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <!-- Header-top -->
+            <div class="header-top">
+                <nav class="nav">
+                    <a class="nav__item" href="#skills">Skills</a>
+                    <a class="nav__item nav__item--cogwheel" href="#projects">
+                        Projects
+                    </a>
+                    <a class="nav__item" href="#contact">Contact me</a>
+                    <button class="burger-btn">
+                        <div class="burger-menu-wrapper">
+                            <div class="burger-menu"></div>
+                        </div>
+                    </button>
+                </nav>
             </div>
-        </header>
-        <!-- // Header -->
+            <!-- // Header-top -->
 
-        <!-- Main -->
-        <main class="main">
-            
-                <!-- Skills -->
-                <section class="skills" id="skills">
-                    <div class="container">
-                        <h2 class="section-title skills-title">Skills</h2>
-                        <div class="skills-wrapper">
-                            <div class="skills__technologies">
-                                <p class="skills__technologies-text">
-                                    I have a vast experience in the following web
-                                    technologies:
-                                </p>
-                                <div class="skills__technologies-wrapper">
-                                    <img
-                                        class="skills__technologies-img"
-                                        src="./img/main/skills/html5.png"
-                                        alt="HTML image"
-                                    />
-                                    <img
-                                        class="skills__technologies-img"
-                                        src="./img/main/skills/css3.png"
-                                        alt="CSS image"
-                                    />
-                                    <img
-                                        class="skills__technologies-img"
-                                        src="./img/main/skills/js.png"
-                                        alt="JS image"
-                                    />
-                                    <img
-                                        class="skills__technologies-img"
-                                        src="./img/main/skills/bootstrap.png"
-                                        alt="Bootstrap image"
-                                    />
-                                </div>
-                            </div>
-                            <div class="skills__img">
-                                <img
-                                    src="./img/main/skills/skills-img.png"
-                                    alt="Skill image"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- // Skills -->
-
-                <!-- Projects -->
-                <section class="projects" id="projects">
-                    <div class="container">
-                        <h2 class="section-title projects__title">Projects</h2>
-                        <p class="projects__text">Some of my projects include:</p>
-                        <div class="projects__items-wrapper">
-                            <div class="projects__items">
-                                <div class="projects__items-card">
-                                    <img
-                                        src="./img/main/projects/project-1.jpg"
-                                        alt="Project-1 image"
-                                    />
-                                    <p class="projects__items-card-text">
-                                        Made a social media manager template using
-                                        HTML 5, CSS and JS only.
-                                    </p>
-                                    <a class="projects__items-card-link" href="#"
-                                        ><img
-                                            src="./img/main/projects/internet.png"
-                                            alt=""
-                                        />
-                                        <p>Visit site</p></a
-                                    >
-                                </div>
-                            </div>
-                            <div class="projects__items">
-                                <div class="projects__items-card">
-                                    <img
-                                        src="./img/main/projects/project-2.jpg"
-                                        alt="Project-2 image"
-                                    />
-                                    <p class="projects__items-card-text">
-                                        Made a simple card page using HTML 5 and CSS
-                                        3
-                                    </p>
-                                    <a class="projects__items-card-link" href="#"
-                                        ><img
-                                            src="./img/main/projects/internet.png"
-                                            alt=""
-                                        />
-                                        <p>Visit site</p></a
-                                    >
-                                </div>
-                            </div>
-                            <div class="projects__items">
-                                <div class="projects__items-card">
-                                    <img
-                                        src="./img/main/projects/project-3.jpg"
-                                        alt="Project-3 image"
-                                    />
-                                    <p class="projects__items-card-text">
-                                        Made an I.P address tracking website.
-                                    </p>
-                                    <a class="projects__items-card-link" href="#"
-                                        ><img
-                                            src="./img/main/projects/internet.png"
-                                            alt=""
-                                        />
-                                        <p>Visit site</p></a
-                                    >
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- // Projects -->
-
-                <!-- Contact-me -->
-                <section class="contact-me" id="contact-me">
-                    <div class="container">
-                        <h2 class="section-title contact-me-title">
-                            Contact me
-                        </h2>
-                        <div class="contact-me__wrapper">
-                            <div class="contact-me__img">
-                                <img
-                                    src="./img/main/contact-me/contact-img.png"
-                                    alt="Contact image"
-                                />
-                            </div>
-                            <form class="contact-me__send-form">
-                                <div class="send-form__input">
-                                    <input
-                                        class="input input-field"
-                                        type="email"
-                                        placeholder="Enter email address"
-                                    />
-                                </div>
-                                <div class="send-form__input">
-                                    <textarea
-                                        class="textarea input-field"
-                                        placeholder="Enter message..."
-                                    ></textarea>
-                                </div>
-                                <button class="send-form__btn">Send</button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
-                <!-- // Contact-me -->
-            </div>
-        </main>
-        <!-- // Main -->
-
-        <!-- Footer -->
-        <footer class="footer">
-            <div class="container footer__container">
-                <div class="social-media">
-                    <p class="social-media__text">My social media links:</p>
-                    <nav class="social-media__items">
-                        <a href="#"
-                            ><img
-                                src="./img/footer/linkedin.svg"
-                                alt="Linkedin"
-                        /></a>
-                        <a href="#"
-                            ><img
-                                src="./img/footer/whatsapp.svg"
-                                alt="Whatsapp"
-                        /></a>
-                        <a href="#"
-                            ><img src="./img/footer/twitter.svg" alt="Twitter"
-                        /></a>
-                        <a href="#"
-                            ><img src="./img/footer/gmail.svg" alt="Gmail"
-                        /></a>
-                    </nav>
-                </div>
-                <div class="more-projects">
-                    <p class="more-projects-text">
-                        More projects I’ve worked on
+            <!-- Header-content -->
+            <div class="header-content">
+                <div class="header-content__description">
+                    <h1 class="header-content__description-title">
+                        Hi! Eugen Myhlovets
+                    </h1>
+                    <p class="header-content__description-text">
+                        I’m a software developer and here is my portfolio website. Here you’ll learn about my journey as
+                        a software developer.
                     </p>
-                    <div class="my-github">
-                        <a class="my-github__link" href="https://github.com/eugenmyhlovets">
-                            <img
-                                class="my-github__image"
-                                src="./img/footer/github.svg"
-                                alt="Github"
-                            />
-                            @<span class="my-github__link--color"
-                                >eugenmyhlovets</span>&nbsp;on github</a>
+                    <button class="header-content__description-btn">
+                        Hire me
+                    </button>
+                </div>
+                <div class="header-content__img">
+                    <img class="header-content__img-bg img-photo" src="./img/header/header-content/my-photo.jpg"
+                        alt="My Photo" />
+                    <img class="header-content__img-bg img-bg1" src="./img/header/header-content/zigzags.png"
+                        alt="Zigzag image" />
+                    <img class="header-content__img-bg img-bg2" src="./img/header/header-content/plus.png"
+                        alt="Plus image" />
+                    <img class="header-content__img-bg img-bg3" src="./img/header/header-content/cube.png"
+                        alt="Cube image" />
+                    <img class="header-content__img-bg img-bg4" src="./img/header/header-content/circle.png"
+                        alt="Circle image" />
+                    <img class="header-content__img-bg img-bg5" src="./img/header/header-content/dots.png"
+                        alt="Dots image" />
+                </div>
+            </div>
+            <!-- Header-content -->
+        </div>
+    </header>
+    <!-- // Header -->
+
+    <!-- Main -->
+    <main class="main">
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title skills-title">Skills</h2>
+                <div class="skills-wrapper">
+                    <div class="skills__technologies">
+                        <p class="skills__technologies-text">
+                            I have a vast experience in the following web
+                            technologies:
+                        </p>
+                        <div class="skills__technologies-wrapper">
+                            <img class="skills__technologies-img" src="./img/main/skills/html5.png" alt="HTML image" />
+                            <img class="skills__technologies-img" src="./img/main/skills/css3.png" alt="CSS image" />
+                            <img class="skills__technologies-img" src="./img/main/skills/js.png" alt="JS image" />
+                        </div>
+                    </div>
+                    <div class="skills__img">
+                        <img src="./img/main/skills/skills-img.png" alt="Skill image" />
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- // Footer -->
-        <script src="./js/main.js"></script>
-    </body>
+        </section>
+        <!-- // Skills -->
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title projects__title">Projects</h2>
+                <p class="projects__text">Some of my projects include:</p>
+                <div class="projects__items-wrapper">
+                    <div class="projects__items">
+                        <div class="projects__items-card">
+                            <img class="project__img" src="./img/main/projects/project-1.jpg" alt="Project-1 image" />
+                            <p class="projects__items-card-text">
+                                Made a social media manager template using HTML 5, CSS and JS only.</p>
+                            <a class="projects__items-card-link" href="#"><img src="./img/main/projects/internet.png"
+                                    alt="" />
+                                <p>Visit site</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__items">
+                        <div class="projects__items-card">
+                            <img class="project__img" src="./img/main/projects/project-2.jpg" alt="Project-2 image" />
+                            <p class="projects__items-card-text">
+                                Made a simple card page using HTML 5 and CSS 3</p>
+                            <a class="projects__items-card-link" href="#"><img src="./img/main/projects/internet.png"
+                                    alt="" />
+                                <p>Visit site</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projects__items">
+                        <div class="projects__items-card">
+                            <img class="project__img" src="./img/main/projects/project-3.jpg" alt="Project-3 image" />
+                            <p class="projects__items-card-text">
+                                Made an I.P address tracking website.</p>
+                            <a class="projects__items-card-link" href="#"><img src="./img/main/projects/internet.png"
+                                    alt="" />
+                                <p>Visit site</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- // Projects -->
+
+        <!-- Contact-me -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title contact-title"> Contact me</h2>
+                <div class="contact__wrapper">
+                    <div class="contact__img">
+                        <img src="./img/main/contact-me/contact-img.png" alt="Contact image" />
+                    </div>
+                    <form class="contact__send-form" action="#" id="form">
+                        <div class="send-form__input">
+                            <input class="input input-field" type="email" placeholder="Enter email address" />
+                        </div>
+                        <div class="send-form__input">
+                            <textarea class="textarea input-field" placeholder="Enter message..."></textarea>
+                        </div>
+                        <button class="send-form__btn" type="submit"><img
+                                src="./img/main/contact-me/contact-button-plane.png" alt="">
+                            Send
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!-- // Contact-me -->
+        </div>
+    </main>
+    <!-- // Main -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="social-media">
+                <p class="social-media__text">My social media links:</p>
+                <nav class="social-media__items">
+                    <a href="#"><img class="social-img" src="./img/footer/linkedin.svg" alt="Linkedin" /></a>
+                    <a href="#"><img class="social-img" src="./img/footer/whatsapp.svg" alt="Whatsapp" /></a>
+                    <a href="#"><img class="social-img" src="./img/footer/twitter.svg" alt="Twitter" /></a>
+                    <a href="#"><img class="social-img" src="./img/footer/gmail.svg" alt="Gmail" /></a>
+                </nav>
+            </div>
+            <div class="more-projects">
+                <p class="more-projects-text">
+                    More projects I’ve worked on</p>
+                <div class="my-github">
+                    <a class="my-github__link" href="https://github.com/eugenmyhlovets">
+                        <img class="social-img" src="./img/footer/github.svg" alt="Github" />
+                        <p>@<span class="my-github__link--color">eugenmyhlovets</span>&nbsp;on github</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- // Footer -->
+    <script src="./js/main.js"></script>
+</body>
+
 </html>
